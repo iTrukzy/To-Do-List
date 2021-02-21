@@ -1,0 +1,33 @@
+.create__todo {
+    text-align: center;
+}
+.create__todo__body input {
+    width: 80%;
+    margin: .5rem 0;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+}
+.create__todo__body input:focus {
+    outline: none;
+}
+.create__todo__body input::placeholder {
+    color: #a5a5a5;
+}
+.create__todo button {
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+    color: #a5a5a5;
+    background-color: #f2f2f2;
+}
+.create__todo button:hover {
+    transition: all .3s ease;
+    transform: scale(1.1);
+}
+.create__todo button:focus {
+    outline: none;
+}
